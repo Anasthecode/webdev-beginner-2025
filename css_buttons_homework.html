@@ -24,6 +24,37 @@
   .amazon:hover {
     background-color: rgb(215, 170, 20);
   }
+  
+  .github {
+    background-color: rgb(10, 123, 10);
+    height: 40px;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: box-shadow;
+  }
+
+  .github:hover {
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .linkedin {
+    background-color: white;
+    border-color: rgb(38, 38, 237);
+    color: rgb(38, 38, 237);
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    border-width: 1px;
+    transition: border-width 0.15s, background-color 0.15s;
+  }
+
+  .linkedin:hover {
+    border-width: 2px;
+    background-color: rgb(196, 189, 214);
+  }
 </style>
 
 <button class="uber">
@@ -32,4 +63,12 @@
 
 <button class="amazon">
   Add to Cart
+</button>
+
+<button class="github">
+  Sign up
+</button>
+
+<button class="linkedin">
+  Save
 </button>
